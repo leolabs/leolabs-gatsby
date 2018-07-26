@@ -58,13 +58,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    console.log(node.frontmatter);
-
     const value = node.frontmatter.alias && node.frontmatter.alias.length
       ? node.frontmatter.alias[0]
       : createFilePath({ node, getNode }).replace(/[0-9]{4}-[0-9]{2}-[0-9]{2}-/g, '');
-
-    console.log(value);
 
     createNodeField({
       name: `slug`,
