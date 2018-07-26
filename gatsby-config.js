@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'leolabs.org',
     author: 'Leo Bernard',
+    siteUrl: 'https://leolabs.org',
     description: 'A starter blog demonstrating what Gatsby can do.',
   },
   pathPrefix: '/gatsby-starter-blog',
