@@ -1,8 +1,6 @@
 ---
 title: Edit Final Cut Pro X Projects on Synology DiskStations
 date: 2017-09-21 01:00:00
-header:
-  color: '#0C73E3'
 ---
 
 A while ago I started using Final Cut Pro X for my projects and two days ago I bought a Synology DS1817+ to store my project files. The setup was easy but when I tried to open one of my Final Cut projects from the network share using Samba, I got an error message:
