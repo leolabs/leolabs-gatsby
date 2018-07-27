@@ -283,7 +283,8 @@ header .image-header, header .background {
 
 header .image-header {
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.4;
+    filter: saturate(0)
 }
 
 header .background {
