@@ -16,7 +16,7 @@ class Bio extends React.Component {
           alt='Leo Bernard'
         />
         <div>
-          <p>Written with ❤ by <strong>Leo Bernard</strong></p>
+          <p>Hey there! My name is Leo Bernard. I'm a Stu­dent, Mu­si­cian and De­vel­oper. I love Pho­tog­ra­phy, Movies, Com­put­ers, Mu­sic and Cats.</p>
 
           <ul>
             {this.socialMedia.map(s =>
