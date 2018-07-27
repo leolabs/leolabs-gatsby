@@ -15,18 +15,22 @@ body {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     line-height: 1.8;
     padding: 0;
+    padding-bottom: 50px;
     margin: 0
 }
 
 .content {
     max-width: 700px;
     padding: 0 16px;
-    padding-bottom: 50px;
     margin: auto
 }
 
 article {
     padding-bottom: 20px
+}
+
+article p:last-of-type {
+    margin-bottom: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -237,9 +241,9 @@ li {
 }
 
 .bio img {
-    width: 60px;
-    height: 60px;
-    flex: 0 0 60px;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 80px;
     margin: 0;
     flex-grow: 0;
     border-radius: 50%;
@@ -252,6 +256,7 @@ li {
 .bio ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -264,4 +269,35 @@ li {
 .bio a {
     color: #666;
     text-decoration: none !important;
+}
+
+header .image-header, header .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+header .image-header {
+    z-index: -1;
+    opacity: 0.2;
+}
+
+header .background {
+    z-index: -2;
+}
+
+header {
+    position: relative;
+    display: flex;
+    padding: 90px 0;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 250px;
+    height: auto;
 }
