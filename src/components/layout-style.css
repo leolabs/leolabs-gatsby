@@ -29,7 +29,7 @@ article {
     padding-bottom: 20px
 }
 
-article p:last-of-type {
+article p:last-child, article img:last-child {
     margin-bottom: 0;
 }
 
@@ -234,11 +234,7 @@ li {
 
 .bio {
     display: flex;
-    align-items: center;
-}
-
-.bio div {
-    margin-left: 16px;
+    align-items: top;
 }
 
 .bio img {
@@ -246,6 +242,8 @@ li {
     height: 80px;
     flex: 0 0 80px;
     margin: 0;
+    margin-right: 16px;
+    margin-top: 14px;
     flex-grow: 0;
     border-radius: 50%;
 }
@@ -296,10 +294,28 @@ header {
     position: relative;
     display: flex;
     padding: 90px 0;
-    margin-bottom: 50px;
+    margin-bottom: 1.5em;
+    transition: padding 0.2s;
 }
 
 header img {
     width: 250px;
+    transition: width 0.2s;
     height: auto;
+    margin-bottom: 0;
+}
+
+@media(max-width: 600px) {
+    .bio img {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+        margin-bottom: 1em;
+    }
+
+    header img {
+        width: 100px;
+    }
 }
