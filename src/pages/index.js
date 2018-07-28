@@ -14,7 +14,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <Helmet>
-          <title>{post.frontmatter.title} - {siteTitle}</title>
+          <title>{siteTitle}</title>
           <meta name="description" content="Hey there! My name is Leo Bernard. I'm a Stu­dent, Mu­si­cian and De­vel­oper. I love Pho­tog­ra­phy, Movies, Com­put­ers, Mu­sic and Cats." />
         </Helmet>
         <Bio />
