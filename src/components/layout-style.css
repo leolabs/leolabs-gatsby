@@ -294,7 +294,7 @@ header {
     position: relative;
     display: flex;
     padding: 90px 0;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     transition: padding 0.2s;
 }
 
