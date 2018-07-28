@@ -1,9 +1,6 @@
 ---
 title: Album Covers werden auf dem iPhone nicht angezeigt - Lösung
 date: 2012-11-28 20:26:19 Z
-slug: iphone-cover
-alias:
-- blog/technology/idevices/iphone-cover
 ---
 
 Vor wenigen Tagen ist mein iPhone 5 angekommen, über welches ich auch noch einen Bericht veröffentlichen werde. Nach der ersten Einrichtung habe ich meine gesamte Musikbibliothek auf das iPhone kopiert und musste feststellen, dass die meisten der Album Covers nicht in der Musik-App angezeigt werden, obwohl sie in iTunes sichtbar sind.
