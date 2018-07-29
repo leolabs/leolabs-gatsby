@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "leolabs.org",
+    "short_name": "leolabs.org",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -8,7 +8,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#2196F3",
+    "background_color": "#2196F3",
     "display": "standalone"
 }
