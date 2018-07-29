@@ -232,6 +232,14 @@ li {
     margin-top: 0.75em
 }
 
+.post-list h3 {
+    margin-bottom: 4px;
+}
+
+.post-list h3 a {
+    color: #2196F3;
+}
+
 .bio {
     display: flex;
     align-items: top;
