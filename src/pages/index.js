@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content="Hey there! My name is Leo Bernard. I'm a Stu­dent, Mu­si­cian and De­vel­oper. I love Pho­tog­ra­phy, Movies, Com­put­ers, Mu­sic and Cats." />

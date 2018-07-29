@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
     const excerpt = get(this.props, 'data.markdownRemark.excerpt')
 
     return (
-      <Layout location={this.props.location} title={siteTitle} header={header}>
+      <Layout header={header}>
         <Helmet>
           <title>{post.frontmatter.title} - {siteTitle}</title>
           <meta name="description" content={excerpt} />
