@@ -1,5 +1,7 @@
 import React from 'react'
 
+import avatar from './avatar.jpg'
+
 class Bio extends React.Component {
   socialMedia = [
     {name: 'Twitter', link: 'https://twitter.com/leolabs_org'},
@@ -12,7 +14,7 @@ class Bio extends React.Component {
     return (
       <div className="bio">
         <img
-          src='https://secure.gravatar.com/avatar/483ab9eaf44f0c80139a4bd8cd24bc13?size=200'
+          src={avatar}
           alt='Leo Bernard'
         />
         <div>
